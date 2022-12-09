@@ -1,0 +1,44 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4599465",
+      "name": "乘号",
+      "font_class": "chenghao",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "7434419",
+      "name": "乘号",
+      "font_class": "chenghao1",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "11139872",
+      "name": "除号",
+      "font_class": "chengbeifen",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "16055304",
+      "name": "乘号5",
+      "font_class": "chenghao5",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "16055309",
+      "name": "乘号4",
+      "font_class": "chenghao4",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    }
+  ]
+}

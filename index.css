@@ -1,0 +1,80 @@
+.cool-dark {
+    background-image: linear-gradient(-150deg, #222222 15%, #373737 70%, #3c4859 94%);
+}
+
+.calculator {
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    min-width: 500px;
+    box-sizing: border-box;
+}
+
+.calculator div {
+    border-radius: 10px;
+}
+
+.screen {
+    height: 80px;
+    overflow: hidden; 
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.btn-wrapper {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.btn-item {
+    height: 50px;
+    width: 100px;
+    margin-top: 10px;
+
+    display: grid;
+    place-content: center;
+    color: white;
+
+    cursor: pointer;
+}
+
+.btn-item:hover {
+    color: black;
+    background: linear-gradient(-150deg, #eee 15%, #aaa 70%, #eee 94%);
+}
+
+.screen-line {
+    height: 40px;
+    text-align: right;
+    color: white;
+    font-size: 20px;
+    white-space: pre;
+    padding: 4px;
+    box-sizing: border-box;
+    margin: 0;
+    float: right;
+}
+
+.screen-line::after {
+    clear: both;
+}
+
+.float-right:nth-child(2)>.screen-line{
+    font-size: 15px;
+    height: 40px;
+}
+
+.icon-chenghao1 {
+    font-weight: bolder;
+}
+
+.float-right {
+    clear: both;
+}
